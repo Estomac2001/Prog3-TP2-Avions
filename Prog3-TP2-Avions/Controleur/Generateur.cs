@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Prog3_TP2_Avions
+namespace Generateur
 {
-    static class Program
+    static class Generateur
     {
         /// <summary>
         /// Point d'entrée principal de l'application.
