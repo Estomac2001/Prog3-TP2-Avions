@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Generateur
 {
-    abstract class Vehicule
+    public abstract class Vehicule
     {
         private string m_nom;
         private int m_vitesse;

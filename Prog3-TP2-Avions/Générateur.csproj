@@ -48,8 +48,16 @@
   <ItemGroup>
     <Compile Include="Controleur\Generateur.cs" />
     <Compile Include="Modele\Aeroport.cs" />
+    <Compile Include="Modele\AvionCargo.cs" />
+    <Compile Include="Modele\AvionCiterne.cs" />
+    <Compile Include="Modele\AvionObservateur.cs" />
+    <Compile Include="Modele\AvionPassagers.cs" />
     <Compile Include="Modele\Coordonnees.cs" />
     <Compile Include="Modele\CreateurAeroport.cs" />
+    <Compile Include="Modele\HelicoptereSecours.cs" />
+    <Compile Include="Modele\Vehicule.cs" />
+    <Compile Include="Modele\VehiculeEvenement.cs" />
+    <Compile Include="Modele\VehiculeTransport.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Modele\Scenario.cs" />
     <Compile Include="Vue\GenerateurVue.cs">

@@ -29,6 +29,7 @@ namespace Prog3_TP2_Avions.Vue
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
             this.lstAero = new System.Windows.Forms.ListBox();
             this.txtNomAero = new System.Windows.Forms.TextBox();
             this.txtMinPass = new System.Windows.Forms.TextBox();
@@ -323,10 +324,15 @@ namespace Prog3_TP2_Avions.Vue
             this.btnAjoutScenario.Text = "Ajouter l\'avion";
             this.btnAjoutScenario.UseVisualStyleBackColor = false;
             // 
+=======
+            this.SuspendLayout();
+            // 
+>>>>>>> e2c75a39007f1cadf6b9426147ea6eb0b74a4821
             // GenerateurVue
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(1102, 500);
             this.Controls.Add(this.btnAjoutScenario);
             this.Controls.Add(this.btnAjoutAvion);
@@ -363,6 +369,12 @@ namespace Prog3_TP2_Avions.Vue
             this.Text = "Générateur de scénarios";
             this.ResumeLayout(false);
             this.PerformLayout();
+=======
+            this.ClientSize = new System.Drawing.Size(646, 328);
+            this.Name = "GenerateurVue";
+            this.Text = "GenerateurVue";
+            this.ResumeLayout(false);
+>>>>>>> e2c75a39007f1cadf6b9426147ea6eb0b74a4821
 
         }
 
