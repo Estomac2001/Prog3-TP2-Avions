@@ -1,3 +1,7 @@
 .vs
 bin/Debug
+<<<<<<< HEAD
 obj/Debug
+=======
+obj/Debug
+>>>>>>> dbae18d93bbf97f9f4e37d4f2713553473702de7
