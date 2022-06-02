@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Generateur
 {
-    class Coordonnees
+    public class Coordonnees
     {
     }
 }
