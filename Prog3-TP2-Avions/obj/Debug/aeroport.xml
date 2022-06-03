@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Aeroport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Nom>patate</Nom>
-  <MaxPassagers>5</MaxPassagers>
-  <MinPassagers>1</MinPassagers>
-  <MaxCargo>5</MaxCargo>
-  <MinCargo>1</MinCargo>
-</Aeroport>
