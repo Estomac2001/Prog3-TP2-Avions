@@ -8,13 +8,23 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Prog3_TP2_Avions.Vue
+namespace Generateur
 {
     public partial class GenerateurVue : Form
     {
         public GenerateurVue()
         {
             InitializeComponent();
+        }
+
+        private void btnAjoutAero_Click(object sender, EventArgs e)
+        {
+            String position;
+            int minPassagers;
+            int maxPassagers;
+            int minCargo;
+            int maxCargo;
+
         }
     }
 }

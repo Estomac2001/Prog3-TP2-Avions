@@ -17,11 +17,12 @@ namespace Generateur
         [STAThread]
         static void Main()
         {
-            //Application.EnableVisualStyles();
-            //Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new Form1());
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            GenerateurVue form = new GenerateurVue();
+            Application.Run(form);
 
-            Aeroport aeroport = new Aeroport
+            /**Aeroport aeroport = new Aeroport
             {
                 Nom = "patate",
                 MinCargo = 1,
@@ -42,7 +43,9 @@ namespace Generateur
             {
                 Aeroport aero2 = xs.Deserialize(rd) as Aeroport;
                 Console.WriteLine("Nom : {0} ", aero2.Nom);
-            }
+            }*/
+
+            
 
         }
     }
