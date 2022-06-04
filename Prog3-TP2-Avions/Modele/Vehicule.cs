@@ -3,13 +3,38 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
+using System.Xml;
 
 namespace Generateur
 {
     public abstract class Vehicule
     {
-        private string m_nom;
-        private int m_vitesse;
-        private int m_entretien;
+
+        public Vehicule()
+        {
+
+        }
+
+        [XmlElement]
+        public string Nom
+        {
+            get;
+            set;
+        }
+
+        [XmlElement]
+        public int Vitesse
+        {
+            get;
+            set;
+        }
+
+        [XmlElement]
+        public int Entretien
+        {
+            get;
+            set;
+        }
     }
 }

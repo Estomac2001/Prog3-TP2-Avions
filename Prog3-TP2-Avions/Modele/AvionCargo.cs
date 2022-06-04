@@ -3,12 +3,31 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
+using System.Xml;
 
 namespace Generateur
 {
-    class AvionCargo : VehiculeTransport
+     public class AvionCargo : VehiculeTransport
     {
-        private float m_min;
-        private float m_max;
+        
+        public AvionCargo()
+        {
+
+        }
+
+        [XmlElement]
+        public float Max
+        {
+            get;
+            set;
+        }
+
+        [XmlElement]
+        public float Min
+        {
+            get;
+            set;
+        }
     }
 }
