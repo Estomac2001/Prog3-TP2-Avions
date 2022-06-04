@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace Generateur
 {
-    abstract class VehiculeTransport : Vehicule
+    public abstract class VehiculeTransport : Vehicule
     {
         private int m_embarquement;
         private int m_debarquement;
     }
+
+    
 }

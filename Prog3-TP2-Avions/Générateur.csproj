@@ -54,6 +54,7 @@
     <Compile Include="Modele\AvionPassagers.cs" />
     <Compile Include="Modele\Coordonnees.cs" />
     <Compile Include="Modele\CreateurAeroport.cs" />
+    <Compile Include="Modele\CreateurVehicule.cs" />
     <Compile Include="Modele\HelicoptereSecours.cs" />
     <Compile Include="Modele\Vehicule.cs" />
     <Compile Include="Modele\VehiculeEvenement.cs" />

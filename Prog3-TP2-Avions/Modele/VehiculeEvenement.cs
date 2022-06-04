@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Generateur
 {
-    class VehiculeEvenement : Vehicule
+    public class VehiculeEvenement : Vehicule
     {
     }
 }

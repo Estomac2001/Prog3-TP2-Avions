@@ -11,6 +11,11 @@ namespace Generateur
 {
     public class Aeroport
     {
+
+        public Aeroport(string nom,Coordonnees position , int minPassagers, int maxPassagers, int minCargo, int maxCargo)
+        {
+
+        }
         
         public Aeroport()
         {
@@ -25,15 +30,16 @@ namespace Generateur
             set;
 
         }
+        */
 
-        [XmlIgnore]
+        [XmlElement]
         public Coordonnees Position
         {
             get;
             set;
 
         }
-        */
+        
 
         [XmlElement]
         public string Nom
@@ -69,11 +75,5 @@ namespace Generateur
             get;
             set;
         }
-
-        public void serialiser(string fichier)
-        {
-           
-        }
-
     }
 }
